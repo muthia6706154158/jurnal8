@@ -1,10 +1,11 @@
-import java.util.scanner;
+package nomor1;
+import java.util.Scanner;
 
-public class nomor1 {
+public class Nomor1  {
 	public static void main(String[]args){
-		Scanner show = new Scanner(System.in);
+		Scanner lihat = new Scanner(System.in);
 		System.out.print("Masukkan jumlah : ");
-		int bil =show.nextInt();
+		int bil =lihat.nextInt();
 		long fib[] = new long[bil];
 		fib[0]=0;
 		fib[1]=1;
