@@ -5,7 +5,7 @@ public class nomor1 {
 		Scanner show = new Scanner(System.in);
 		System.out.print("Masukkan jumlah : ");
 		int bil =show.nextInt();
-		long fib[] = new long[];
+		long fib[] = new long[bil];
 		fib[0]=0;
 		fib[1]=1;
 	for(int i =2 ; i<bil;i++){
